@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy policy · Software Department Scheduler</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --text: #191919;
+        --muted: #666666;
+        --blue: #0a66c2;
+        --bg: #f4f2ee;
+        --card: #ffffff;
+        --line: #e0dfdc;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.55;
+      }
+      main {
+        max-width: 720px;
+        margin: 32px auto;
+        padding: 32px 28px 40px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+      h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 8px; }
+      h2 { font-size: 1.05rem; margin: 28px 0 8px; }
+      p, li { font-size: 0.98rem; }
+      .meta { color: var(--muted); margin: 0 0 20px; }
+      a { color: var(--blue); }
+      ul { padding-left: 1.2rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy policy</h1>
+      <p class="meta">Software Department Scheduler · Last updated 8 October 2026</p>
+
+      <p>
+        This policy describes the LinkedIn Scheduler app run by Software Department.
+        The app drafts posts and publishes them to the LinkedIn account of the person who signs in.
+      </p>
+
+      <h2>Information from LinkedIn</h2>
+      <p>When you choose Sign in with LinkedIn, LinkedIn sends us:</p>
+      <ul>
+        <li>Your name, email address, and profile photo</li>
+        <li>Your LinkedIn member id</li>
+        <li>An access token, and a refresh token if LinkedIn provides one</li>
+      </ul>
+      <p>
+        The token is stored encrypted and is used only to publish posts you approve.
+        LinkedIn does not give this app your headline or About section.
+      </p>
+
+      <h2>Information you enter</h2>
+      <p>You can save a profile the app uses to personalize drafts:</p>
+      <ul>
+        <li>Title, industry, about, target audience, tone, usual topics, and timezone</li>
+        <li>Post text, topics, and the date and time you choose for each post</li>
+      </ul>
+
+      <h2>How the information is used</h2>
+      <ul>
+        <li>To show your name and photo in the app</li>
+        <li>To generate draft posts from the profile and topic you provide</li>
+        <li>To publish a post to your LinkedIn account when you post it or when its scheduled time arrives</li>
+        <li>To keep a session so you stay signed in</li>
+      </ul>
+      <p>
+        Draft generation sends your saved profile and the topic to the model provider configured for the app.
+        The default provider is xAI (Grok). The provider can be changed by the person who operates the app.
+      </p>
+      <p>
+        Publishing sends the post text to LinkedIn. LinkedIn’s own privacy policy applies to content that appears on LinkedIn.
+      </p>
+
+      <h2>What we do not do</h2>
+      <p>
+        We do not sell this information. We do not use it to post anything you have not saved or scheduled.
+        We do not ask LinkedIn for your connections, messages, or private activity.
+      </p>
+
+      <h2>How long it is kept</h2>
+      <p>
+        Profile details and posts stay in the app database until you delete them, or until the operator of this app deletes the account.
+        Signing out removes the session cookie from your browser. It does not delete saved drafts.
+        LinkedIn access lasts about 60 days. Signing in again replaces the stored token.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>
+        The app sets an httpOnly session cookie so the server can tell who is signed in, and a short-lived cookie during LinkedIn sign-in to prevent a forged login response.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy can be sent through the
+        <a href="https://github.com/Mehtab66">Software Department GitHub account</a>.
+      </p>
+    </main>
+  </body>
+</html>
